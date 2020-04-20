@@ -12,6 +12,10 @@
 		D0FD50CB244E0244005D5084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FD50CA244E0244005D5084 /* Assets.xcassets */; };
 		D0FD50CE244E0244005D5084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FD50CC244E0244005D5084 /* Main.storyboard */; };
 		D0FD50DA244E0244005D5084 /* UniAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FD50D9244E0244005D5084 /* UniAppTests.swift */; };
+		D0FD50E6244E043E005D5084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FD50C8244E0243005D5084 /* ViewController.swift */; };
+		D0FD50E7244E043E005D5084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FD50C6244E0243005D5084 /* AppDelegate.swift */; };
+		D0FD50EA244E043E005D5084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FD50CA244E0244005D5084 /* Assets.xcassets */; };
+		D0FD50EB244E043E005D5084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FD50CC244E0244005D5084 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 		D0FD50D5244E0244005D5084 /* UniAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FD50D9244E0244005D5084 /* UniAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniAppTests.swift; sourceTree = "<group>"; };
 		D0FD50DB244E0244005D5084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FD50EF244E043E005D5084 /* UniApp Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UniApp Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FD50F0244E043E005D5084 /* UniApp Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UniApp Dev-Info.plist"; path = "/Users/jonathankrug/Documents/Xcode Projekte/UniApp/UniApp Dev-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0FD50E8244E043E005D5084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +74,7 @@
 				D0FD50C5244E0243005D5084 /* UniApp */,
 				D0FD50D8244E0244005D5084 /* UniAppTests */,
 				D0FD50C4244E0243005D5084 /* Products */,
+				D0FD50F0244E043E005D5084 /* UniApp Dev-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +83,7 @@
 			children = (
 				D0FD50C3244E0243005D5084 /* UniApp.app */,
 				D0FD50D5244E0244005D5084 /* UniAppTests.xctest */,
+				D0FD50EF244E043E005D5084 /* UniApp Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +148,23 @@
 			productReference = D0FD50D5244E0244005D5084 /* UniAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D0FD50E4244E043E005D5084 /* UniApp Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FD50EC244E043E005D5084 /* Build configuration list for PBXNativeTarget "UniApp Dev" */;
+			buildPhases = (
+				D0FD50E5244E043E005D5084 /* Sources */,
+				D0FD50E8244E043E005D5084 /* Frameworks */,
+				D0FD50E9244E043E005D5084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UniApp Dev";
+			productName = UniApp;
+			productReference = D0FD50EF244E043E005D5084 /* UniApp Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,6 +199,7 @@
 			targets = (
 				D0FD50C2244E0243005D5084 /* UniApp */,
 				D0FD50D4244E0244005D5084 /* UniAppTests */,
+				D0FD50E4244E043E005D5084 /* UniApp Dev */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +221,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0FD50E9244E043E005D5084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FD50EA244E043E005D5084 /* Assets.xcassets in Resources */,
+				D0FD50EB244E043E005D5084 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -205,6 +247,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FD50DA244E0244005D5084 /* UniAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FD50E5244E043E005D5084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FD50E6244E043E005D5084 /* ViewController.swift in Sources */,
+				D0FD50E7244E043E005D5084 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +478,48 @@
 			};
 			name = Release;
 		};
+		D0FD50ED244E043E005D5084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UniApp/UniApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3WE74M79FD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "UniApp Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D Development";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathankrug.UniApp-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0FD50EE244E043E005D5084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UniApp/UniApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3WE74M79FD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "UniApp Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D Development";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathankrug.UniApp-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -453,6 +546,15 @@
 			buildConfigurations = (
 				D0FD50E2244E0244005D5084 /* Debug */,
 				D0FD50E3244E0244005D5084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FD50EC244E043E005D5084 /* Build configuration list for PBXNativeTarget "UniApp Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FD50ED244E043E005D5084 /* Debug */,
+				D0FD50EE244E043E005D5084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
