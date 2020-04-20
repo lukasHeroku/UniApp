@@ -1,4 +1,4 @@
 os: osx
 language: swift
 osx_image: xcode11.3
-script: xcodebuild clean build test -project UniApp.xcodeproj -scheme "UniApp" -sdk "macOS 10.15" -destination "platform=macOS" ONLY_ACTIVE_ARCH=NO
+script: xcodebuild clean build test -project UniApp.xcodeproj -scheme "UniApp Dev" -sdk "macOS 10.15" -destination "platform=macOS" ONLY_ACTIVE_ARCH=NO
