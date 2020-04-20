@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0FD50E4244E043E005D5084"
-               BuildableName = "UniApp Dev.app"
-               BlueprintName = "UniApp Dev"
+               BlueprintIdentifier = "D0FD50C2244E0243005D5084"
+               BuildableName = "UniApp.app"
+               BlueprintName = "UniApp"
                ReferencedContainer = "container:UniApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -54,9 +54,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0FD50E4244E043E005D5084"
-            BuildableName = "UniApp Dev.app"
-            BlueprintName = "UniApp Dev"
+            BlueprintIdentifier = "D0FD50C2244E0243005D5084"
+            BuildableName = "UniApp.app"
+            BlueprintName = "UniApp"
             ReferencedContainer = "container:UniApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -71,9 +71,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0FD50E4244E043E005D5084"
-            BuildableName = "UniApp Dev.app"
-            BlueprintName = "UniApp Dev"
+            BlueprintIdentifier = "D0FD50C2244E0243005D5084"
+            BuildableName = "UniApp.app"
+            BlueprintName = "UniApp"
             ReferencedContainer = "container:UniApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
